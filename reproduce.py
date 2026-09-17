@@ -15,7 +15,7 @@ SCRIPTS = (
     "verify_drift.py", "build_paper_assets.py", "build_measurement_assets.py",
     "build_feedback_assets.py", "build_joint_assets.py",
     "build_information_assets.py", "verify_restricted_optimality.py",
-    "build_revision_assets.py", "verify_precision.py",
+    "build_revision_assets.py", "build_complementarity_assets.py", "verify_precision.py",
 )
 
 

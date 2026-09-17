@@ -1,0 +1,55 @@
+{
+  "parameters": {
+    "alpha": 0.04,
+    "beta": 0.96,
+    "sigma": 0.85,
+    "delta": 0.002,
+    "k": 0.02,
+    "budget": 0.0192
+  },
+  "example": {
+    "composition": {
+      "coefficient": 0.0,
+      "endpoint": "zero_knowledge_growth",
+      "lower_endpoint": null,
+      "upper_endpoint": 0.23987624902976026,
+      "knowledge_floor_at_m": -0.0002657596264384844,
+      "attained": false,
+      "omega_upper": null,
+      "multiplier_upper": null,
+      "reason": "no_positive_resource_coefficient"
+    },
+    "labor": {
+      "coefficient": 0.0,
+      "endpoint": "zero_knowledge_growth",
+      "lower_endpoint": null,
+      "upper_endpoint": 0.23987624902976026,
+      "knowledge_floor_at_m": -0.001,
+      "attained": false,
+      "omega_upper": null,
+      "multiplier_upper": null,
+      "reason": "no_positive_resource_coefficient"
+    },
+    "joint": {
+      "coefficient": 0.17336571770369139,
+      "endpoint": "mu_floor",
+      "lower_endpoint": 0.17336571770369139,
+      "upper_endpoint": 0.23987624902976026,
+      "knowledge_floor_at_m": 0.0006475283548834398,
+      "attained": true,
+      "omega_upper": 0.11074853929780826,
+      "multiplier_upper": 0.13040724028456468,
+      "reason": "finite"
+    },
+    "m": 0.08671201867807578,
+    "h": 0.001
+  },
+  "high_precision": {
+    "m": "0.08671201867807577894449909335482418194531685174869929009090154900031999",
+    "z_m": "0.0006475283548834397999454827737416594569610201832252865117271294310060798",
+    "left": "0.1733657177036911037040614720654452769101981357384499051187684996444277",
+    "right": "0.2398762490297601413671421945128929655707325366495701165837880802549102",
+    "coefficient": "0.1733657177036911037040614720654452769101981357384499051187684996444277",
+    "multiplier": "0.1304072402845649341120594381390956104766351649948013959844298153441932"
+  }
+}

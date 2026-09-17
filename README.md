@@ -1,6 +1,6 @@
 # Research Budgets and Bounds on Growth Effects
 
-**Replication release 0.11 — September 17, 2026.** Author: Hyunkyu Lee, Kyung Hee University.
+**Replication release 0.12 — September 17, 2026.** Author: Hyunkyu Lee, Kyung Hee University.
 This repository accompanies the main manuscript and its separate online supplement,
 prepared for *Macroeconomic Dynamics*. It contains public accounting observations,
 source provenance, analytical routines and deterministic table/figure builders.
@@ -10,6 +10,12 @@ cheaper research computing. The central result is the sharp lower resource
 coefficient, its failure under productivity uncertainty, and restoration through
 composition, feedback or research-labor growth restrictions. The minimum of two
 standalone bounds is a corollary, not the principal claim of novelty.
+
+The new composition-labor result distinguishes substitutable from complementary
+information. At the reference inputs, a computing floor 14633/(2*84377) alone and
+a labor growth floor .001 alone both leave an infinite supremum. Together their
+sharp supremum is .130407240284565, with no feedback ceiling. On a regular BGP,
+the matched labor-growth floor restricts n; it is not an independent parameter.
 
 ## Download and run
 
@@ -46,7 +52,8 @@ PDF binaries are not compared byte for byte because metadata can vary.
 | Table 2: ten disclosed company-periods | `build_paper_assets.py` | `accounting_table.tex` |
 | Table 3: parameter status | manuscript text | Selected restrictions, no estimation |
 | Table 4: separate and joint bounds | `build_information_assets.py`, then `build_revision_assets.py` | `joint_bound_table.tex` |
-| Table 5: three information restrictions | `build_revision_assets.py` | `information_comparison_table.tex` |
+| Corollary 2: composition and labor growth | `build_complementarity_assets.py` | `complementarity_results.json`, `complementarity_macros.tex` |
+| Table 5: substitutable and complementary restrictions | `build_revision_assets.py`, then `build_complementarity_assets.py` | `information_comparison_table.tex` |
 | Table 6: acquisition vs user-cost budgets | `build_revision_assets.py` | `budget_definitions_table.tex` |
 | Figure 1: binding information and feedback sensitivity | `build_revision_assets.py` | `information_frontier.pdf`, `.png` |
 | Supplement Table S1 | `verify_drift.py` | `drift_table.tex` |
@@ -58,7 +65,8 @@ PDF binaries are not compared byte for byte because metadata can vary.
 
 The former feedback and headline fragments are retained as auxiliary numerical
 checks; the active paper uses the output map above. `reproduce.py` runs the early
-builders before the final v0.11 builder that writes the current Table 4.
+builders before `build_revision_assets.py` writes Table 4 and the upper block of
+Table 5; `build_complementarity_assets.py` then writes its lower block.
 
 ## Observations and maintained restrictions
 
@@ -90,6 +98,11 @@ comparisons do not certify simultaneous-control global optimality. No regression
 GPU experiment, transition solver or world-AI growth estimate is performed here.
 The new user-cost coefficient and labor restriction are independently checked on
 primitive grids; analytical proofs, rather than grids, establish the results.
+The composition-labor extension also checks symbolic endpoint derivatives, both
+minimizing branches, 960,480 primitive grid values, 1,200 augmented restrictions,
+positivity and budget-equality boundaries, and recovery of Theorem 1. The example
+is evaluated independently at 70 decimal digits. A positive resource coefficient
+alone does not guarantee a finite multiplier; the budget must also be small enough.
 
 `publication_manifest.json` records SHA-256 for every published content file except
 itself. `.gitattributes` fixes LF line endings. See `CITATION.cff` for citation metadata.
