@@ -1,0 +1,11 @@
+id,company,period,months,period_end,currency,amount_unit,source_id,pdf_page,printed_page,source_compute_label,compute_service_expense,rd_total,compute_share
+minimax_2022-FY,MiniMax,2022-FY,12,2022-12-31,USD,1000,minimax_prospectus,433,423,Cloud services expenses related to training,4149,10560,0.39289772727272726
+minimax_2023-FY,MiniMax,2023-FY,12,2023-12-31,USD,1000,minimax_prospectus,433,423,Cloud services expenses related to training,47229,70002,0.6746807234079026
+minimax_2024-FY,MiniMax,2024-FY,12,2024-12-31,USD,1000,minimax_prospectus,433,423,Cloud services expenses related to training,140642,188979,0.7442202572772636
+minimax_2024-9M,MiniMax,2024-9M,9,2024-09-30,USD,1000,minimax_prospectus,433,423,Cloud services expenses related to training,103114,138684,0.7435176372184246
+minimax_2025-9M,MiniMax,2025-9M,9,2025-09-30,USD,1000,minimax_prospectus,433,423,Cloud services expenses related to training,142397,180312,0.7897255867607259
+knowledge_atlas_2022-FY,Knowledge Atlas (Zhipu),2022-FY,12,2022-12-31,CNY,1000,knowledge_atlas_prospectus,267,258,Computing service fees,14633,84377,0.17342403735615156
+knowledge_atlas_2023-FY,Knowledge Atlas (Zhipu),2023-FY,12,2023-12-31,CNY,1000,knowledge_atlas_prospectus,267,258,Computing service fees,311746,528884,0.5894411629015058
+knowledge_atlas_2024-FY,Knowledge Atlas (Zhipu),2024-FY,12,2024-12-31,CNY,1000,knowledge_atlas_prospectus,267,258,Computing service fees,1552832,2195436,0.7073000533834737
+knowledge_atlas_2024-6M,Knowledge Atlas (Zhipu),2024-6M,6,2024-06-30,CNY,1000,knowledge_atlas_prospectus,267,258,Computing service fees,603237,859217,0.702077589246954
+knowledge_atlas_2025-6M,Knowledge Atlas (Zhipu),2025-6M,6,2025-06-30,CNY,1000,knowledge_atlas_prospectus,267,258,Computing service fees,1145124,1594661,0.7180987056183101

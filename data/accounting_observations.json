@@ -1,0 +1,317 @@
+{
+  "purpose": "Observed R&D expense composition; conditional input-share bridge for rr03. No macro calibration or manuscript revision.",
+  "extraction": "Manual transcription from the rendered original PDF tables, checked against extracted text and row sums.",
+  "units": "All raw amounts below are in thousands of the stated currency. No currency conversion or annualization is performed.",
+  "observations": [
+    {
+      "id": "minimax_2022-FY",
+      "company": "MiniMax",
+      "period": "2022-FY",
+      "year": 2022,
+      "months": 12,
+      "period_end": "2022-12-31",
+      "currency": "USD",
+      "amount_unit": 1000,
+      "source_id": "minimax_prospectus",
+      "pdf_page": 433,
+      "printed_page": "423",
+      "source_compute_label": "Cloud services expenses related to training",
+      "source_compute_percent": 39.4,
+      "compute_service_expense": 4149,
+      "rd_total": 10560,
+      "components": {
+        "compute_service_expense": 4149,
+        "staff_costs": 5461,
+        "share_based_payments": 88,
+        "travel_and_professional": 457,
+        "other": 405
+      },
+      "reported_direct_labor_including_sbc": 5549,
+      "unaudited_label_present": false,
+      "scope_pages": [
+        428,
+        432
+      ],
+      "notes": "Training, architecture experimentation, evaluation and prototyping in R&D; commercial inference is in cost of sales. SBC is separate from staff costs."
+    },
+    {
+      "id": "minimax_2023-FY",
+      "company": "MiniMax",
+      "period": "2023-FY",
+      "year": 2023,
+      "months": 12,
+      "period_end": "2023-12-31",
+      "currency": "USD",
+      "amount_unit": 1000,
+      "source_id": "minimax_prospectus",
+      "pdf_page": 433,
+      "printed_page": "423",
+      "source_compute_label": "Cloud services expenses related to training",
+      "source_compute_percent": 67.6,
+      "compute_service_expense": 47229,
+      "rd_total": 70002,
+      "components": {
+        "compute_service_expense": 47229,
+        "staff_costs": 18674,
+        "share_based_payments": 1826,
+        "travel_and_professional": 1467,
+        "other": 806
+      },
+      "reported_direct_labor_including_sbc": 20500,
+      "unaudited_label_present": false,
+      "scope_pages": [
+        428,
+        432
+      ],
+      "notes": "Training, architecture experimentation, evaluation and prototyping in R&D; commercial inference is in cost of sales. SBC is separate from staff costs."
+    },
+    {
+      "id": "minimax_2024-FY",
+      "company": "MiniMax",
+      "period": "2024-FY",
+      "year": 2024,
+      "months": 12,
+      "period_end": "2024-12-31",
+      "currency": "USD",
+      "amount_unit": 1000,
+      "source_id": "minimax_prospectus",
+      "pdf_page": 433,
+      "printed_page": "423",
+      "source_compute_label": "Cloud services expenses related to training",
+      "source_compute_percent": 74.4,
+      "compute_service_expense": 140642,
+      "rd_total": 188979,
+      "components": {
+        "compute_service_expense": 140642,
+        "staff_costs": 40420,
+        "share_based_payments": 4703,
+        "travel_and_professional": 2842,
+        "other": 372
+      },
+      "reported_direct_labor_including_sbc": 45123,
+      "unaudited_label_present": false,
+      "scope_pages": [
+        428,
+        432
+      ],
+      "notes": "Training, architecture experimentation, evaluation and prototyping in R&D; commercial inference is in cost of sales. SBC is separate from staff costs."
+    },
+    {
+      "id": "minimax_2024-9M",
+      "company": "MiniMax",
+      "period": "2024-9M",
+      "year": 2024,
+      "months": 9,
+      "period_end": "2024-09-30",
+      "currency": "USD",
+      "amount_unit": 1000,
+      "source_id": "minimax_prospectus",
+      "pdf_page": 433,
+      "printed_page": "423",
+      "source_compute_label": "Cloud services expenses related to training",
+      "source_compute_percent": 74.4,
+      "compute_service_expense": 103114,
+      "rd_total": 138684,
+      "components": {
+        "compute_service_expense": 103114,
+        "staff_costs": 28514,
+        "share_based_payments": 4722,
+        "travel_and_professional": 2066,
+        "other": 268
+      },
+      "reported_direct_labor_including_sbc": 33236,
+      "unaudited_label_present": true,
+      "scope_pages": [
+        428,
+        432
+      ],
+      "notes": "Training, architecture experimentation, evaluation and prototyping in R&D; commercial inference is in cost of sales. SBC is separate from staff costs."
+    },
+    {
+      "id": "minimax_2025-9M",
+      "company": "MiniMax",
+      "period": "2025-9M",
+      "year": 2025,
+      "months": 9,
+      "period_end": "2025-09-30",
+      "currency": "USD",
+      "amount_unit": 1000,
+      "source_id": "minimax_prospectus",
+      "pdf_page": 433,
+      "printed_page": "423",
+      "source_compute_label": "Cloud services expenses related to training",
+      "source_compute_percent": 79.0,
+      "compute_service_expense": 142397,
+      "rd_total": 180312,
+      "components": {
+        "compute_service_expense": 142397,
+        "staff_costs": 28531,
+        "share_based_payments": 6347,
+        "travel_and_professional": 2670,
+        "other": 367
+      },
+      "reported_direct_labor_including_sbc": 34878,
+      "unaudited_label_present": false,
+      "scope_pages": [
+        428,
+        432
+      ],
+      "notes": "Training, architecture experimentation, evaluation and prototyping in R&D; commercial inference is in cost of sales. SBC is separate from staff costs."
+    },
+    {
+      "id": "knowledge_atlas_2022-FY",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2022-FY",
+      "year": 2022,
+      "months": 12,
+      "period_end": "2022-12-31",
+      "currency": "CNY",
+      "amount_unit": 1000,
+      "source_id": "knowledge_atlas_prospectus",
+      "pdf_page": 267,
+      "printed_page": "258",
+      "source_compute_label": "Computing service fees",
+      "source_compute_percent": 17.3,
+      "compute_service_expense": 14633,
+      "rd_total": 84377,
+      "components": {
+        "compute_service_expense": 14633,
+        "payroll_including_sbc": 41982,
+        "depreciation_and_amortization": 14689,
+        "technical_service_and_consultation": 11412,
+        "other": 1661
+      },
+      "reported_direct_labor_including_sbc": 41982,
+      "unaudited_label_present": false,
+      "scope_pages": [
+        266,
+        267
+      ],
+      "notes": "Third-party computing for R&D. Payroll includes SBC. Residual includes all depreciation and outsourced technical work. No R&D was capitalized in the track-record period."
+    },
+    {
+      "id": "knowledge_atlas_2023-FY",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2023-FY",
+      "year": 2023,
+      "months": 12,
+      "period_end": "2023-12-31",
+      "currency": "CNY",
+      "amount_unit": 1000,
+      "source_id": "knowledge_atlas_prospectus",
+      "pdf_page": 267,
+      "printed_page": "258",
+      "source_compute_label": "Computing service fees",
+      "source_compute_percent": 58.9,
+      "compute_service_expense": 311746,
+      "rd_total": 528884,
+      "components": {
+        "compute_service_expense": 311746,
+        "payroll_including_sbc": 137296,
+        "depreciation_and_amortization": 49206,
+        "technical_service_and_consultation": 25184,
+        "other": 5452
+      },
+      "reported_direct_labor_including_sbc": 137296,
+      "unaudited_label_present": false,
+      "scope_pages": [
+        266,
+        267
+      ],
+      "notes": "Third-party computing for R&D. Payroll includes SBC. Residual includes all depreciation and outsourced technical work. No R&D was capitalized in the track-record period."
+    },
+    {
+      "id": "knowledge_atlas_2024-FY",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2024-FY",
+      "year": 2024,
+      "months": 12,
+      "period_end": "2024-12-31",
+      "currency": "CNY",
+      "amount_unit": 1000,
+      "source_id": "knowledge_atlas_prospectus",
+      "pdf_page": 267,
+      "printed_page": "258",
+      "source_compute_label": "Computing service fees",
+      "source_compute_percent": 70.7,
+      "compute_service_expense": 1552832,
+      "rd_total": 2195436,
+      "components": {
+        "compute_service_expense": 1552832,
+        "payroll_including_sbc": 324193,
+        "depreciation_and_amortization": 259038,
+        "technical_service_and_consultation": 45036,
+        "other": 14337
+      },
+      "reported_direct_labor_including_sbc": 324193,
+      "unaudited_label_present": false,
+      "scope_pages": [
+        266,
+        267
+      ],
+      "notes": "Third-party computing for R&D. Payroll includes SBC. Residual includes all depreciation and outsourced technical work. No R&D was capitalized in the track-record period."
+    },
+    {
+      "id": "knowledge_atlas_2024-6M",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2024-6M",
+      "year": 2024,
+      "months": 6,
+      "period_end": "2024-06-30",
+      "currency": "CNY",
+      "amount_unit": 1000,
+      "source_id": "knowledge_atlas_prospectus",
+      "pdf_page": 267,
+      "printed_page": "258",
+      "source_compute_label": "Computing service fees",
+      "source_compute_percent": 70.2,
+      "compute_service_expense": 603237,
+      "rd_total": 859217,
+      "components": {
+        "compute_service_expense": 603237,
+        "payroll_including_sbc": 107988,
+        "depreciation_and_amortization": 118517,
+        "technical_service_and_consultation": 24670,
+        "other": 4805
+      },
+      "reported_direct_labor_including_sbc": 107988,
+      "unaudited_label_present": true,
+      "scope_pages": [
+        266,
+        267
+      ],
+      "notes": "Third-party computing for R&D. Payroll includes SBC. Residual includes all depreciation and outsourced technical work. No R&D was capitalized in the track-record period."
+    },
+    {
+      "id": "knowledge_atlas_2025-6M",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2025-6M",
+      "year": 2025,
+      "months": 6,
+      "period_end": "2025-06-30",
+      "currency": "CNY",
+      "amount_unit": 1000,
+      "source_id": "knowledge_atlas_prospectus",
+      "pdf_page": 267,
+      "printed_page": "258",
+      "source_compute_label": "Computing service fees",
+      "source_compute_percent": 71.8,
+      "compute_service_expense": 1145124,
+      "rd_total": 1594661,
+      "components": {
+        "compute_service_expense": 1145124,
+        "payroll_including_sbc": 265567,
+        "depreciation_and_amortization": 123966,
+        "technical_service_and_consultation": 52209,
+        "other": 7795
+      },
+      "reported_direct_labor_including_sbc": 265567,
+      "unaudited_label_present": false,
+      "scope_pages": [
+        266,
+        267
+      ],
+      "notes": "Third-party computing for R&D. Payroll includes SBC. Residual includes all depreciation and outsourced technical work. No R&D was capitalized in the track-record period."
+    }
+  ]
+}

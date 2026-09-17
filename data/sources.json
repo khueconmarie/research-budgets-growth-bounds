@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100025.pdf",
+      "retrieved_utc": "2026-09-16T04:12:20.418314+00:00",
+      "status": 200,
+      "bytes": 7203109,
+      "pages": 716,
+      "sha256": "7853021e46da5714242f8d27984498cbfef3e260d5a7cbb8d4e6d62d83ab9df3",
+      "id": "minimax_prospectus",
+      "pages_used_1_based": [
+        428,
+        432,
+        433
+      ],
+      "role": "Primary matched expense table; principal measurement source."
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000017.pdf",
+      "retrieved_utc": "2026-09-16T04:18:50.297599+00:00",
+      "bytes": 10479114,
+      "sha256": "a6598ce3f2f13ac78a9d02a85314dcd349314d2ee1215015e41bb1284e608f4e",
+      "pages": 504,
+      "id": "knowledge_atlas_prospectus",
+      "pages_used_1_based": [
+        266,
+        267
+      ],
+      "role": "Independent second company; matched expense table."
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "retrieved_utc": "2026-09-16T04:13:51.405416+00:00",
+      "sha256": "3ddad73d7333d8de7c7b0ca66fa50c1a9c7823b1bd04dd9e1fb1aaf2d9e51c07",
+      "bytes": 1113749,
+      "pages": 177,
+      "id": "minimax_annual_2025",
+      "pages_used_1_based": [
+        13,
+        102,
+        133
+      ],
+      "role": "2024 R&D total cross-check. 2025 R&D total 252771; 2025 full-year training-cloud disaggregation not identified in this report."
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0419/2026041900085.pdf",
+      "retrieved_utc": "2026-09-16T04:17:50.804570+00:00",
+      "bytes": 12866942,
+      "sha256": "f27ac3b56c3f444a27f830558a4d48594517fda7b82b3e13c2b70cf626249368",
+      "pages": 149,
+      "id": "knowledge_atlas_annual_2025",
+      "pages_used_1_based": [
+        22,
+        105
+      ],
+      "role": "2024 R&D total cross-check. 2025 R&D total 3180443; R&D computing-service disaggregation not identified in this report."
+    }
+  ],
+  "annual_report_rule": "The absence of an accepted full-year compute disaggregation here does not imply no other later filing contains one. Interim values are not extrapolated."
+}

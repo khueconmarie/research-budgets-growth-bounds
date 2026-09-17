@@ -1,0 +1,471 @@
+{
+  "parameters": {
+    "alpha": 0.04,
+    "beta": 0.96,
+    "sigma": 0.85,
+    "budget": 0.0192,
+    "k": 0.02,
+    "delta": 0.0001
+  },
+  "rows": [
+    {
+      "psi_ceiling": 1,
+      "delta": 0.0001,
+      "omega_sup": 0.07473817641800512,
+      "multiplier_sup": 0.08442494008788883,
+      "endpoint_requirement": 0.2466209490704079,
+      "end_weight": 0.96
+    },
+    {
+      "psi_ceiling": 2,
+      "delta": 0.0001,
+      "omega_sup": 0.07473817641800512,
+      "multiplier_sup": 0.08442494008788883,
+      "endpoint_requirement": 0.2466209490704079,
+      "end_weight": 0.96
+    },
+    {
+      "psi_ceiling": 5,
+      "delta": 0.0001,
+      "omega_sup": 0.07473817641800512,
+      "multiplier_sup": 0.08442494008788883,
+      "endpoint_requirement": 0.2466209490704079,
+      "end_weight": 0.96
+    },
+    {
+      "psi_ceiling": 10,
+      "delta": 0.0001,
+      "omega_sup": 0.09015103208099684,
+      "multiplier_sup": 0.10363986784587569,
+      "endpoint_requirement": 0.2466209490704079,
+      "end_weight": 0.96
+    },
+    {
+      "psi_ceiling": 100,
+      "delta": 0.0001,
+      "omega_sup": 0.5400510751408467,
+      "multiplier_sup": 1.2859922794705916,
+      "endpoint_requirement": 0.21988078694770435,
+      "end_weight": 0.96
+    },
+    {
+      "psi_ceiling": 180,
+      "delta": 0.0001,
+      "omega_sup": 0.9400461556264021,
+      "multiplier_sup": 47.1110297357153,
+      "endpoint_requirement": 0.028764606012547152,
+      "end_weight": 0.96
+    },
+    {
+      "psi_ceiling": 185,
+      "delta": 0.0001,
+      "omega_sup": 0.96,
+      "multiplier_sup": null,
+      "endpoint_requirement": 0.01678102243126134,
+      "end_weight": 0.96
+    },
+    {
+      "psi_ceiling": 192,
+      "delta": 0.0001,
+      "omega_sup": 0.96,
+      "multiplier_sup": null,
+      "endpoint_requirement": 0.0,
+      "end_weight": 0.96
+    }
+  ],
+  "zero_decline_coefficient": 0.25776317571358326,
+  "fixed_ceiling_limits": [
+    {
+      "psi_ceiling": 0.01,
+      "limit": 0.010526315789473686,
+      "sequence": [
+        {
+          "psi_ceiling": 0.01,
+          "delta": 0.0001,
+          "omega_sup": 0.01,
+          "multiplier_sup": 0.010526315789473686,
+          "endpoint_requirement": 0.002568968219483416,
+          "end_weight": 0.01
+        },
+        {
+          "psi_ceiling": 0.01,
+          "delta": 1e-06,
+          "omega_sup": 0.01,
+          "multiplier_sup": 0.010526315789473686,
+          "endpoint_requirement": 0.0025775452628214795,
+          "end_weight": 0.01
+        },
+        {
+          "psi_ceiling": 0.01,
+          "delta": 1e-08,
+          "omega_sup": 0.01,
+          "multiplier_sup": 0.010526315789473686,
+          "endpoint_requirement": 0.0025776308922067664,
+          "end_weight": 0.01
+        },
+        {
+          "psi_ceiling": 0.01,
+          "delta": 1e-10,
+          "omega_sup": 0.01,
+          "multiplier_sup": 0.010526315789473686,
+          "endpoint_requirement": 0.0025776317484865452,
+          "end_weight": 0.01
+        },
+        {
+          "psi_ceiling": 0.01,
+          "delta": 1e-12,
+          "omega_sup": 0.01,
+          "multiplier_sup": 0.010526315789473686,
+          "endpoint_requirement": 0.0025776317570493346,
+          "end_weight": 0.01
+        }
+      ]
+    },
+    {
+      "psi_ceiling": 0.05,
+      "limit": 0.05494505494505495,
+      "sequence": [
+        {
+          "psi_ceiling": 0.05,
+          "delta": 0.0001,
+          "omega_sup": 0.05,
+          "multiplier_sup": 0.05494505494505495,
+          "endpoint_requirement": 0.012844841097417079,
+          "end_weight": 0.05
+        },
+        {
+          "psi_ceiling": 0.05,
+          "delta": 1e-06,
+          "omega_sup": 0.05,
+          "multiplier_sup": 0.05494505494505495,
+          "endpoint_requirement": 0.012887726314107398,
+          "end_weight": 0.05
+        },
+        {
+          "psi_ceiling": 0.05,
+          "delta": 1e-08,
+          "omega_sup": 0.05,
+          "multiplier_sup": 0.05494505494505495,
+          "endpoint_requirement": 0.012888154461033833,
+          "end_weight": 0.05
+        },
+        {
+          "psi_ceiling": 0.05,
+          "delta": 1e-10,
+          "omega_sup": 0.05,
+          "multiplier_sup": 0.05494505494505495,
+          "endpoint_requirement": 0.012888158742432727,
+          "end_weight": 0.05
+        },
+        {
+          "psi_ceiling": 0.05,
+          "delta": 1e-12,
+          "omega_sup": 0.05,
+          "multiplier_sup": 0.05494505494505495,
+          "endpoint_requirement": 0.012888158785246673,
+          "end_weight": 0.05
+        }
+      ]
+    },
+    {
+      "psi_ceiling": 1,
+      "limit": 0.08411731522333217,
+      "sequence": [
+        {
+          "psi_ceiling": 1,
+          "delta": 0.0001,
+          "omega_sup": 0.07473817641800512,
+          "multiplier_sup": 0.08442494008788883,
+          "endpoint_requirement": 0.2466209490704079,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 1,
+          "delta": 1e-06,
+          "omega_sup": 0.07448947755424845,
+          "multiplier_sup": 0.08412037538358201,
+          "endpoint_requirement": 0.24744434523086203,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 1,
+          "delta": 1e-08,
+          "omega_sup": 0.07448700299972918,
+          "multiplier_sup": 0.08411734582333455,
+          "endpoint_requirement": 0.24745256565184956,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 1,
+          "delta": 1e-10,
+          "omega_sup": 0.07448697825542097,
+          "multiplier_sup": 0.08411731552933199,
+          "endpoint_requirement": 0.24745264785470833,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 1,
+          "delta": 1e-12,
+          "omega_sup": 0.07448697800797821,
+          "multiplier_sup": 0.08411731522639236,
+          "endpoint_requirement": 0.2474526486767361,
+          "end_weight": 0.96
+        }
+      ]
+    },
+    {
+      "psi_ceiling": 10,
+      "limit": 0.08411731522333217,
+      "sequence": [
+        {
+          "psi_ceiling": 10,
+          "delta": 0.0001,
+          "omega_sup": 0.09015103208099684,
+          "multiplier_sup": 0.10363986784587569,
+          "endpoint_requirement": 0.2466209490704079,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 10,
+          "delta": 1e-06,
+          "omega_sup": 0.07448947755424845,
+          "multiplier_sup": 0.08412037538358201,
+          "endpoint_requirement": 0.24744434523086203,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 10,
+          "delta": 1e-08,
+          "omega_sup": 0.07448700299972918,
+          "multiplier_sup": 0.08411734582333455,
+          "endpoint_requirement": 0.24745256565184956,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 10,
+          "delta": 1e-10,
+          "omega_sup": 0.07448697825542097,
+          "multiplier_sup": 0.08411731552933199,
+          "endpoint_requirement": 0.24745264785470833,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 10,
+          "delta": 1e-12,
+          "omega_sup": 0.07448697800797821,
+          "multiplier_sup": 0.08411731522639236,
+          "endpoint_requirement": 0.2474526486767361,
+          "end_weight": 0.96
+        }
+      ]
+    },
+    {
+      "psi_ceiling": 100,
+      "limit": 0.08411731522333217,
+      "sequence": [
+        {
+          "psi_ceiling": 100,
+          "delta": 0.0001,
+          "omega_sup": 0.5400510751408467,
+          "multiplier_sup": 1.2859922794705916,
+          "endpoint_requirement": 0.21988078694770435,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 100,
+          "delta": 1e-06,
+          "omega_sup": 0.07448947755424845,
+          "multiplier_sup": 0.08412037538358201,
+          "endpoint_requirement": 0.24744434523086203,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 100,
+          "delta": 1e-08,
+          "omega_sup": 0.07448700299972918,
+          "multiplier_sup": 0.08411734582333455,
+          "endpoint_requirement": 0.24745256565184956,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 100,
+          "delta": 1e-10,
+          "omega_sup": 0.07448697825542097,
+          "multiplier_sup": 0.08411731552933199,
+          "endpoint_requirement": 0.24745264785470833,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 100,
+          "delta": 1e-12,
+          "omega_sup": 0.07448697800797821,
+          "multiplier_sup": 0.08411731522639236,
+          "endpoint_requirement": 0.2474526486767361,
+          "end_weight": 0.96
+        }
+      ]
+    },
+    {
+      "psi_ceiling": 1000,
+      "limit": 0.08411731522333217,
+      "sequence": [
+        {
+          "psi_ceiling": 1000,
+          "delta": 0.0001,
+          "omega_sup": 0.96,
+          "multiplier_sup": null,
+          "endpoint_requirement": 0.0,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 1000,
+          "delta": 1e-06,
+          "omega_sup": 0.09000150350060235,
+          "multiplier_sup": 0.10345018280231552,
+          "endpoint_requirement": 0.24744434523086203,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 1000,
+          "delta": 1e-08,
+          "omega_sup": 0.07448700299972918,
+          "multiplier_sup": 0.08411734582333455,
+          "endpoint_requirement": 0.24745256565184956,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 1000,
+          "delta": 1e-10,
+          "omega_sup": 0.07448697825542097,
+          "multiplier_sup": 0.08411731552933199,
+          "endpoint_requirement": 0.24745264785470833,
+          "end_weight": 0.96
+        },
+        {
+          "psi_ceiling": 1000,
+          "delta": 1e-12,
+          "omega_sup": 0.07448697800797821,
+          "multiplier_sup": 0.08411731522639236,
+          "endpoint_requirement": 0.2474526486767361,
+          "end_weight": 0.96
+        }
+      ]
+    }
+  ],
+  "zero_budget_witnesses": [
+    {
+      "delta": 0.01,
+      "d": 0.003,
+      "mu": 0.5,
+      "psi": 1.914,
+      "psi_limit": 1.9199999999999997,
+      "e_r": 0.00037203514786024184,
+      "m_r": 319.0
+    },
+    {
+      "delta": 0.01,
+      "d": 0.001,
+      "mu": 0.5,
+      "psi": 1.918,
+      "psi_limit": 1.9199999999999997,
+      "e_r": 4.143145264852156e-05,
+      "m_r": 959.0
+    },
+    {
+      "delta": 0.01,
+      "d": 0.0001,
+      "mu": 0.5,
+      "psi": 1.9198,
+      "psi_limit": 1.9199999999999997,
+      "e_r": 4.1471304574225986e-07,
+      "m_r": 9599.0
+    },
+    {
+      "delta": 0.001,
+      "d": 0.003,
+      "mu": 0.05,
+      "psi": 19.139999999999997,
+      "psi_limit": 19.2,
+      "e_r": 0.004092057601446855,
+      "m_r": 319.0
+    },
+    {
+      "delta": 0.001,
+      "d": 0.001,
+      "mu": 0.05,
+      "psi": 19.18,
+      "psi_limit": 19.2,
+      "e_r": 0.0004557096336427733,
+      "m_r": 959.0
+    },
+    {
+      "delta": 0.001,
+      "d": 0.0001,
+      "mu": 0.05,
+      "psi": 19.197999999999997,
+      "psi_limit": 19.2,
+      "e_r": 4.561480062899607e-06,
+      "m_r": 9599.0
+    },
+    {
+      "delta": 0.0001,
+      "d": 0.003,
+      "mu": 0.005,
+      "psi": 191.39999999999998,
+      "psi_limit": 191.99999999999997,
+      "e_r": 0.04129228001420459,
+      "m_r": 319.0
+    },
+    {
+      "delta": 0.0001,
+      "d": 0.001,
+      "mu": 0.005,
+      "psi": 191.79999999999998,
+      "psi_limit": 191.99999999999997,
+      "e_r": 0.004598491440643064,
+      "m_r": 959.0
+    },
+    {
+      "delta": 0.0001,
+      "d": 0.0001,
+      "mu": 0.005,
+      "psi": 191.98,
+      "psi_limit": 191.99999999999997,
+      "e_r": 4.6029150234470144e-05,
+      "m_r": 9599.0
+    },
+    {
+      "delta": 1e-05,
+      "d": 0.003,
+      "mu": 0.0005,
+      "psi": 1913.9999999999998,
+      "psi_limit": 1919.9999999999998,
+      "e_r": 0.4132943076501725,
+      "m_r": 319.0
+    },
+    {
+      "delta": 1e-05,
+      "d": 0.001,
+      "mu": 0.0005,
+      "psi": 1918.0,
+      "psi_limit": 1919.9999999999998,
+      "e_r": 0.0460263092190322,
+      "m_r": 959.0
+    },
+    {
+      "delta": 1e-05,
+      "d": 0.0001,
+      "mu": 0.0005,
+      "psi": 1919.8,
+      "psi_limit": 1919.9999999999998,
+      "e_r": 0.00046070585194988076,
+      "m_r": 9599.0
+    }
+  ],
+  "labor_floor_example": {
+    "h_floor": 0.0001,
+    "delta": 0.0001,
+    "coefficient": 0.25689682194834157,
+    "multiplier_upper": 0.0844249400878888
+  }
+}

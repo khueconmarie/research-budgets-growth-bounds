@@ -1,0 +1,320 @@
+{
+  "measurement": "C/E with all residual R&D expenses assigned to the noncompute side",
+  "observations": [
+    {
+      "id": "minimax_2022-FY",
+      "company": "MiniMax",
+      "period": "2022-FY",
+      "compute_expense": 4149,
+      "rd_total": 10560,
+      "noncompute_residual_upper": 6411,
+      "accounting_floor": 0.39289772727272726,
+      "exact_fraction": "1383/3520",
+      "direct_labor_share_comparison": 0.42782016910703236,
+      "source_percent": 39.4,
+      "recomputed_percent": 39.28977272727273,
+      "source_percent_differs_from_one_decimal_raw_ratio": true,
+      "adjusted_floors": {
+        "1": 0.39289772727272726,
+        "1/2": 0.244475870602793,
+        "1/5": 0.1146005966191581,
+        "1/10": 0.060783193425042854
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.17168795693741465,
+        "2/5": 1.0301277416244878
+      }
+    },
+    {
+      "id": "minimax_2023-FY",
+      "company": "MiniMax",
+      "period": "2023-FY",
+      "compute_expense": 47229,
+      "rd_total": 70002,
+      "noncompute_residual_upper": 22773,
+      "accounting_floor": 0.6746807234079026,
+      "exact_fraction": "15743/23334",
+      "direct_labor_share_comparison": 0.6973231555168392,
+      "source_percent": 67.6,
+      "recomputed_percent": 67.46807234079026,
+      "source_percent_differs_from_one_decimal_raw_ratio": true,
+      "adjusted_floors": {
+        "1": 0.6746807234079026,
+        "1/2": 0.5090703314470493,
+        "1/5": 0.2931766546240083,
+        "1/10": 0.17176742714368323
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.05357583970300733,
+        "2/5": 0.321455038218044
+      }
+    },
+    {
+      "id": "minimax_2024-FY",
+      "company": "MiniMax",
+      "period": "2024-FY",
+      "compute_expense": 140642,
+      "rd_total": 188979,
+      "noncompute_residual_upper": 48337,
+      "accounting_floor": 0.7442202572772636,
+      "exact_fraction": "140642/188979",
+      "direct_labor_share_comparison": 0.7570963313864291,
+      "source_percent": 74.4,
+      "recomputed_percent": 74.42202572772636,
+      "source_percent_differs_from_one_decimal_raw_ratio": false,
+      "adjusted_floors": {
+        "1": 0.7442202572772636,
+        "1/2": 0.5926359790321765,
+        "1/5": 0.36785788081929865,
+        "1/10": 0.2253834862150087
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.03818758107661849,
+        "2/5": 0.22912548645971095
+      }
+    },
+    {
+      "id": "minimax_2024-9M",
+      "company": "MiniMax",
+      "period": "2024-9M",
+      "compute_expense": 103114,
+      "rd_total": 138684,
+      "noncompute_residual_upper": 35570,
+      "accounting_floor": 0.7435176372184246,
+      "exact_fraction": "51557/69342",
+      "direct_labor_share_comparison": 0.7562449578291163,
+      "source_percent": 74.4,
+      "recomputed_percent": 74.35176372184246,
+      "source_percent_differs_from_one_decimal_raw_ratio": false,
+      "adjusted_floors": {
+        "1": 0.7435176372184246,
+        "1/2": 0.5917453831762829,
+        "1/5": 0.36700075454506625,
+        "1/10": 0.22474030870897574
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.03832866751578081,
+        "2/5": 0.22997200509468485
+      }
+    },
+    {
+      "id": "minimax_2025-9M",
+      "company": "MiniMax",
+      "period": "2025-9M",
+      "compute_expense": 142397,
+      "rd_total": 180312,
+      "noncompute_residual_upper": 37915,
+      "accounting_floor": 0.7897255867607259,
+      "exact_fraction": "142397/180312",
+      "direct_labor_share_comparison": 0.8032548300662812,
+      "source_percent": 79.0,
+      "recomputed_percent": 78.9725586760726,
+      "source_percent_differs_from_one_decimal_raw_ratio": false,
+      "adjusted_floors": {
+        "1": 0.7897255867607259,
+        "1/2": 0.6525177911074248,
+        "1/5": 0.4289428024050221,
+        "1/10": 0.273028125940711
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.029584736881941177,
+        "2/5": 0.17750842129164707
+      }
+    },
+    {
+      "id": "knowledge_atlas_2022-FY",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2022-FY",
+      "compute_expense": 14633,
+      "rd_total": 84377,
+      "noncompute_residual_upper": 69744,
+      "accounting_floor": 0.17342403735615156,
+      "exact_fraction": "14633/84377",
+      "direct_labor_share_comparison": 0.258465071094233,
+      "source_percent": 17.3,
+      "recomputed_percent": 17.342403735615157,
+      "source_percent_differs_from_one_decimal_raw_ratio": false,
+      "adjusted_floors": {
+        "1": 0.17342403735615156,
+        "1/2": 0.09494488097014683,
+        "1/5": 0.0402721320589069,
+        "1/10": 0.020549859354307774
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.5295792614865942,
+        "2/5": 3.1774755689195655
+      }
+    },
+    {
+      "id": "knowledge_atlas_2023-FY",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2023-FY",
+      "compute_expense": 311746,
+      "rd_total": 528884,
+      "noncompute_residual_upper": 217138,
+      "accounting_floor": 0.5894411629015058,
+      "exact_fraction": "155873/264442",
+      "direct_labor_share_comparison": 0.6942468633223619,
+      "source_percent": 58.9,
+      "recomputed_percent": 58.94411629015058,
+      "source_percent_differs_from_one_decimal_raw_ratio": false,
+      "adjusted_floors": {
+        "1": 0.5894411629015058,
+        "1/2": 0.4178777569562292,
+        "1/5": 0.22308427720482368,
+        "1/10": 0.12554578382248827
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.07739135207651243,
+        "2/5": 0.4643481124590746
+      }
+    },
+    {
+      "id": "knowledge_atlas_2024-FY",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2024-FY",
+      "compute_expense": 1552832,
+      "rd_total": 2195436,
+      "noncompute_residual_upper": 642604,
+      "accounting_floor": 0.7073000533834737,
+      "exact_fraction": "388208/548859",
+      "direct_labor_share_comparison": 0.8272836003782581,
+      "source_percent": 70.7,
+      "recomputed_percent": 70.73000533834737,
+      "source_percent_differs_from_one_decimal_raw_ratio": false,
+      "adjusted_floors": {
+        "1": 0.7073000533834737,
+        "1/2": 0.54714944116362,
+        "1/5": 0.32582463744153195,
+        "1/10": 0.19461798610129352
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.045980791511537916,
+        "2/5": 0.2758847490692275
+      }
+    },
+    {
+      "id": "knowledge_atlas_2024-6M",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2024-6M",
+      "compute_expense": 603237,
+      "rd_total": 859217,
+      "noncompute_residual_upper": 255980,
+      "accounting_floor": 0.702077589246954,
+      "exact_fraction": "603237/859217",
+      "direct_labor_share_comparison": 0.8481661921332911,
+      "source_percent": 70.2,
+      "recomputed_percent": 70.2077589246954,
+      "source_percent_differs_from_one_decimal_raw_ratio": false,
+      "adjusted_floors": {
+        "1": 0.702077589246954,
+        "1/2": 0.5409241595879473,
+        "1/5": 0.3203362262012801,
+        "1/10": 0.19071449369703863
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.047149333051888766,
+        "2/5": 0.2828959983113326
+      }
+    },
+    {
+      "id": "knowledge_atlas_2025-6M",
+      "company": "Knowledge Atlas (Zhipu)",
+      "period": "2025-6M",
+      "compute_expense": 1145124,
+      "rd_total": 1594661,
+      "noncompute_residual_upper": 449537,
+      "accounting_floor": 0.7180987056183101,
+      "exact_fraction": "1145124/1594661",
+      "direct_labor_share_comparison": 0.8117468673153795,
+      "source_percent": 71.8,
+      "recomputed_percent": 71.80987056183102,
+      "source_percent_differs_from_one_decimal_raw_ratio": false,
+      "adjusted_floors": {
+        "1": 0.7180987056183101,
+        "1/2": 0.5601825263501872,
+        "1/5": 0.33751502073945217,
+        "1/10": 0.20301838810572265
+      },
+      "required_relative_adjustment": {
+        "1/10": 0.04361846887809142,
+        "2/5": 0.2617108132685485
+      }
+    }
+  ],
+  "sample_minima": {
+    "all_10_disclosed_periods_not_a_time_sum": {
+      "n": 10,
+      "minimum_id": "knowledge_atlas_2022-FY",
+      "accounting_floor_minimum": 0.17342403735615156,
+      "required_relative_adjustment_for_mu_at_least_0_1": 0.5295792614865942,
+      "required_relative_adjustment_for_mu_at_least_0_4": 3.1774755689195655,
+      "scope": "Observed company-period minimum only. No population or future-time coverage guarantee."
+    },
+    "six_full_year_company_observations": {
+      "n": 6,
+      "minimum_id": "knowledge_atlas_2022-FY",
+      "accounting_floor_minimum": 0.17342403735615156,
+      "required_relative_adjustment_for_mu_at_least_0_1": 0.5295792614865942,
+      "required_relative_adjustment_for_mu_at_least_0_4": 3.1774755689195655,
+      "scope": "Observed company-period minimum only. No population or future-time coverage guarantee."
+    },
+    "two_2024_full_year_observations": {
+      "n": 2,
+      "minimum_id": "knowledge_atlas_2024-FY",
+      "accounting_floor_minimum": 0.7073000533834737,
+      "required_relative_adjustment_for_mu_at_least_0_1": 0.045980791511537916,
+      "required_relative_adjustment_for_mu_at_least_0_4": 0.2758847490692275,
+      "scope": "Observed company-period minimum only. No population or future-time coverage guarantee."
+    }
+  },
+  "conditional_theorem_scenarios": {
+    "assumed_parameters": {
+      "alpha": 0.04,
+      "beta": 0.96,
+      "sigma": 0.85,
+      "k": 0.02,
+      "e_bar": 0.0192
+    },
+    "rows": [
+      {
+        "assumed_macro_mu_floor": 0.0,
+        "positive_resource_coefficient_requires_delta_below": 0.0,
+        "finite_multiplier_requires_delta_below": null,
+        "zero_drift_coefficient": 0.25776317571358326,
+        "zero_drift_multiplier_bound": 0.08411731522333217,
+        "scope": "The corporate accounting floor is not asserted to be a macro floor. All macro parameters and the coverage/valuation bridge remain assumptions. Delta=0 is a separate positive-coefficient case even when m=0."
+      },
+      {
+        "assumed_macro_mu_floor": 0.1,
+        "positive_resource_coefficient_requires_delta_below": 0.002,
+        "finite_multiplier_requires_delta_below": 0.0019147898368626374,
+        "zero_drift_coefficient": 0.25776317571358326,
+        "zero_drift_multiplier_bound": 0.08411731522333217,
+        "scope": "The corporate accounting floor is not asserted to be a macro floor. All macro parameters and the coverage/valuation bridge remain assumptions. Delta=0 is a separate positive-coefficient case even when m=0."
+      },
+      {
+        "assumed_macro_mu_floor": 0.17342403735615156,
+        "positive_resource_coefficient_requires_delta_below": 0.0034684807471230313,
+        "finite_multiplier_requires_delta_below": 0.003318221068071955,
+        "zero_drift_coefficient": 0.25776317571358326,
+        "zero_drift_multiplier_bound": 0.08411731522333217,
+        "scope": "The corporate accounting floor is not asserted to be a macro floor. All macro parameters and the coverage/valuation bridge remain assumptions. Delta=0 is a separate positive-coefficient case even when m=0."
+      },
+      {
+        "assumed_macro_mu_floor": 0.4,
+        "positive_resource_coefficient_requires_delta_below": 0.008,
+        "finite_multiplier_requires_delta_below": 0.007634461410655895,
+        "zero_drift_coefficient": 0.25776317571358326,
+        "zero_drift_multiplier_bound": 0.08411731522333217,
+        "scope": "The corporate accounting floor is not asserted to be a macro floor. All macro parameters and the coverage/valuation bridge remain assumptions. Delta=0 is a separate positive-coefficient case even when m=0."
+      }
+    ]
+  },
+  "macro_mu_identified": false,
+  "missing_bridge": [
+    "effective opportunity-cost / invoice conversion",
+    "aggregate research coverage or a common technology restriction",
+    "applicability to the maintained BGP composition rather than only historical expense realizations"
+  ]
+}

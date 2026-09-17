@@ -1,0 +1,100 @@
+{
+  "assumptions": {
+    "alpha": 0.04,
+    "beta": 0.96,
+    "sigma": 0.85,
+    "k": 0.02,
+    "budget": 0.0192
+  },
+  "headline": [
+    {
+      "delta": 0,
+      "m": 0,
+      "coefficient": 0.25776317571358326,
+      "multiplier_supremum": 0.08411731522333217
+    },
+    {
+      "delta": 0.0001,
+      "m": 0,
+      "coefficient": 0.0,
+      "multiplier_supremum": null
+    },
+    {
+      "delta": 0.001,
+      "m": 0,
+      "coefficient": 0.0,
+      "multiplier_supremum": null
+    },
+    {
+      "delta": 0.001,
+      "m": 0.1,
+      "coefficient": 0.22957907961103044,
+      "multiplier_supremum": 0.09542937223085014
+    },
+    {
+      "delta": 0.001,
+      "m": 0.4,
+      "coefficient": 0.2489692581976151,
+      "multiplier_supremum": 0.08734797045435122
+    }
+  ],
+  "observed_accounting": [
+    {
+      "id": "minimax_2022-FY",
+      "share": 0.39289772727272726,
+      "r_for_m_point_one": 0.17168795693741465
+    },
+    {
+      "id": "minimax_2023-FY",
+      "share": 0.6746807234079026,
+      "r_for_m_point_one": 0.05357583970300733
+    },
+    {
+      "id": "minimax_2024-FY",
+      "share": 0.7442202572772636,
+      "r_for_m_point_one": 0.03818758107661849
+    },
+    {
+      "id": "minimax_2024-9M",
+      "share": 0.7435176372184246,
+      "r_for_m_point_one": 0.03832866751578081
+    },
+    {
+      "id": "minimax_2025-9M",
+      "share": 0.7897255867607259,
+      "r_for_m_point_one": 0.029584736881941177
+    },
+    {
+      "id": "knowledge_atlas_2022-FY",
+      "share": 0.17342403735615156,
+      "r_for_m_point_one": 0.5295792614865942
+    },
+    {
+      "id": "knowledge_atlas_2023-FY",
+      "share": 0.5894411629015058,
+      "r_for_m_point_one": 0.07739135207651243
+    },
+    {
+      "id": "knowledge_atlas_2024-FY",
+      "share": 0.7073000533834737,
+      "r_for_m_point_one": 0.045980791511537916
+    },
+    {
+      "id": "knowledge_atlas_2024-6M",
+      "share": 0.702077589246954,
+      "r_for_m_point_one": 0.047149333051888766
+    },
+    {
+      "id": "knowledge_atlas_2025-6M",
+      "share": 0.7180987056183101,
+      "r_for_m_point_one": 0.04361846887809142
+    }
+  ],
+  "observed_minimum": {
+    "id": "knowledge_atlas_2022-FY",
+    "share": 0.17342403735615156,
+    "r_for_m_point_one": 0.5295792614865942
+  },
+  "m_point_one_finite_cutoff": 0.0019147898368625977,
+  "macro_transfer_assumed_not_estimated": true
+}
