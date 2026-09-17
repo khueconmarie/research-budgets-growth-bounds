@@ -15,7 +15,7 @@ SCRIPTS = (
     "verify_drift.py", "build_paper_assets.py", "build_measurement_assets.py",
     "build_feedback_assets.py", "build_joint_assets.py",
     "build_information_assets.py", "verify_restricted_optimality.py",
-    "verify_precision.py",
+    "build_revision_assets.py", "verify_precision.py",
 )
 
 
@@ -66,7 +66,7 @@ def main():
         else:
             assert actual.read_bytes() == expected.read_bytes(), f"Text mismatch: {expected.name}"
         matched.append(expected.name)
-    for name in ("accounting_bound_region.pdf", "accounting_bound_region.png"):
+    for name in ("accounting_bound_region.pdf", "accounting_bound_region.png", "information_frontier.pdf", "information_frontier.png"):
         assert (ROOT / "figures" / name).stat().st_size > 1000, name
     report = {
         "release": manifest["release"], "status": "pass",

@@ -6,7 +6,7 @@ authors:
   - family-names: Lee
     given-names: Hyunkyu
     affiliation: "Department of Economics, Kyung Hee University"
-version: "0.10"
+version: "0.11"
 date-released: 2026-09-17
 repository-code: "https://github.com/khueconmarie/research-budgets-growth-bounds"
 abstract: "Code and public accounting data for analytical resource bounds, information substitution, and coverage thresholds in a semi-endogenous growth model."

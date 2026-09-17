@@ -1,55 +1,95 @@
 # Research Budgets and Bounds on Growth Effects
 
-Replication materials for the Macroeconomic Dynamics submission manuscript, version 0.10, by Hyunkyu Lee (Department of Economics, Kyung Hee University).
+**Replication release 0.11 — September 17, 2026.** Author: Hyunkyu Lee, Kyung Hee University.
+This repository accompanies the main manuscript and its separate online supplement,
+prepared for *Macroeconomic Dynamics*. It contains public accounting observations,
+source provenance, analytical routines and deterministic table/figure builders.
 
-The package reproduces the paper's analytical numerical examples, eight tables, and Figure 1 from ten public accounting observations and explicit model restrictions. It runs independently of the author's research workspace. A GPU, cloud account, proprietary data, and LaTeX are not needed for the numerical reproduction.
+The paper asks when a small research budget excludes a large long-run response to
+cheaper research computing. The central result is the sharp lower resource
+coefficient, its failure under productivity uncertainty, and restoration through
+composition, feedback or research-labor growth restrictions. The minimum of two
+standalone bounds is a corollary, not the principal claim of novelty.
 
-## Reproduce everything
+## Download and run
 
-Tested with Python 3.12.14. From the downloaded repository:
+Choose **Code → Download ZIP** on GitHub, or clone the repository. A commit-specific
+ZIP freezes the version used by a manuscript; that full commit is recorded in the
+manuscript's data/code statement and in the local submission instructions.
 
-```bash
+```sh
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 python reproduce.py
 ```
 
-On Windows, activate the environment with `.venv\Scripts\activate` before the last two commands. Python dependencies are pinned in `requirements.txt`. Internet access is needed to install them, but the reproduction itself uses only included files.
+Test environment: Python 3.12.14, NumPy 2.3.5, Matplotlib 3.11.1, SymPy 1.14.0,
+mpmath 1.3.0. Dependencies are pinned. The complete numerical run takes approximately
+3–5 seconds on the author's local Apple computer (environment-dependent). It requires
+no GPU, credentials, original workspace, LaTeX or network after dependency installation.
+The raw data and expected values are included; no live extraction occurs during a run.
 
-The command verifies input checksums, checks all ten accounting component sums, runs symbolic and numerical checks, rebuilds table fragments and Figure 1, and compares 16 regenerated result files with the frozen reference outputs. The three coverage-crossing rows also receive an independent 60-decimal calculation. A complete run took about 3 seconds on the author's macOS/Python 3.12 environment, excluding dependency installation. The final report is `checks/reproduction_report.json`; individual logs and numerical checks are in `checks/`.
+The runner verifies four input hashes and all ten accounting component sums, executes
+the stages in dependency order, compares every expected TeX output byte for byte and
+JSON numbers at relative tolerance 1e-11 / absolute tolerance 2e-13, and writes
+`checks/reproduction_report.json`. Expected outputs are reference values, not a
+substitute for rerunning the calculations. PNG/PDF figure existence is checked;
+PDF binaries are not compared byte for byte because metadata can vary.
 
-The figure is written to `figures/accounting_bound_region.pdf` and `.png`. Publication table fragments and numerical result ledgers are written to `generated/`. Expected `.tex` output is checked byte-for-byte; numeric JSON values use relative tolerance `1e-11` and absolute tolerance `2e-13`. Plot file hashes are not compared because PDF metadata and graphics backends can vary across systems. Random verification grids use fixed seeds.
+## Output map
 
-## Map from the paper to code
+| Manuscript object | Generator | Output in `generated/` or `figures/` |
+|---|---|---|
+| Theorem 1 and candidate checks | `verify_drift.py` | `drift_results.json`, `drift_macros.tex` |
+| Table 1: feedback at two decline allowances | `build_revision_assets.py` | `feedback_comparison_table.tex` |
+| Table 2: ten disclosed company-periods | `build_paper_assets.py` | `accounting_table.tex` |
+| Table 3: parameter status | manuscript text | Selected restrictions, no estimation |
+| Table 4: separate and joint bounds | `build_information_assets.py`, then `build_revision_assets.py` | `joint_bound_table.tex` |
+| Table 5: three information restrictions | `build_revision_assets.py` | `information_comparison_table.tex` |
+| Table 6: acquisition vs user-cost budgets | `build_revision_assets.py` | `budget_definitions_table.tex` |
+| Figure 1: binding information and feedback sensitivity | `build_revision_assets.py` | `information_frontier.pdf`, `.png` |
+| Supplement Table S1 | `verify_drift.py` | `drift_table.tex` |
+| Supplement Table S2 | `build_paper_assets.py` | `bridge_table.tex` |
+| Supplement Tables S3, S5, S6 and Figure S1 | `build_measurement_assets.py` | `coverage_table.tex`, `normalization_table.tex`, `proxy_witness_table.tex`, `accounting_bound_region.pdf`, `.png` |
+| Supplement Table S4 | `build_revision_assets.py` | `primitive_sensitivity_table.tex` |
+| Restricted optimality algebra | `verify_restricted_optimality.py` | Check log/JSON |
+| Exact transfer crossing at 60 decimal digits | `verify_precision.py` | `checks/high_precision_verification.json` |
 
-| Manuscript object | Builder / check | Main output |
-| --- | --- | --- |
-| Theorem 1 and resource-bound examples; Table 5 | `verify_drift.py` | `drift_results.json`, `drift_table.tex` |
-| Feedback ceiling; Table 1 | `build_feedback_assets.py` | `feedback_results.json`, `feedback_cap_table.tex` |
-| Observed accounting amounts; Tables 2 and 3 | `build_paper_assets.py` | `accounting_table.tex`, `bridge_table.tex`, `paper_assets.json` |
-| Joint restriction and scalar root | `build_joint_assets.py` | `joint_results.json` |
-| Minimum rule, crossing, and Table 4 | `build_information_assets.py` | `information_results.json`, `joint_bound_table.tex` |
-| Coverage and productivity measurement; Tables 6-8 and Figure 1 | `build_measurement_assets.py` | `measurement_results.json`, three table fragments, figure |
-| Two restricted optimality arguments | `verify_restricted_optimality.py` | `checks/restricted_optimality_verification.json` |
-| Independent crossing calculation | `verify_precision.py` | `checks/high_precision_verification.json` |
+The former feedback and headline fragments are retained as auxiliary numerical
+checks; the active paper uses the output map above. `reproduce.py` runs the early
+builders before the final v0.11 builder that writes the current Table 4.
 
-The first builder also retains two auxiliary fragments (`headline_table.tex` and `drift_macros.tex`) used in the research workflow. These are not additional manuscript tables. The numerical kernel is in `analysis/`: `drift_core.py`, `joint_bound.py`, and `information_bounds.py`.
+## Observations and maintained restrictions
 
-## Data and provenance
+`data/README.md` and `data/sources.json` record original public filing URLs, PDF hashes,
+page locations, currencies, periods, classification boundaries and two discrepancies
+in printed MiniMax percentages. Amounts are not pooled across currencies or
+overlapping periods. The original raw observation ledger is unchanged; its older
+extraction-version field documents provenance, not the replication release version.
 
-`data/accounting_observations.json` is the frozen source transcription. Its historical `purpose` field refers to the original rr03 extraction; the data are unchanged in v0.10. `data/accounting_observations.csv` is a flat convenience copy. `data/sources.json` provides official URLs, PDF SHA-256 hashes, and one-based PDF page locations. The original public prospectus and annual-report PDFs are linked rather than redistributed. `data/accounting_accounting_bounds.json` retains the original source-ledger calculations for comparison.
+The observed minimum is 14633/84377. Relative valuation `r`, the transferred target
+activity cost share `lambda`, future persistence, absolute social-resource factor
+`Lambda_E`, service-growth floor `k`, productivity-decline allowance `delta` and
+feedback ceiling `Psi` are maintained restrictions. Lambda is not sample completeness
+or a measured aggregate share. The 1.92% world R&D ratio supplies a scale reference;
+using it as a planner-budget ceiling is an additional allocation/valuation restriction.
 
-The primary sources are MiniMax's December 31, 2025 prospectus and Knowledge Atlas (Zhipu)'s December 30, 2025 prospectus, published by HKEX. The ten company-period observations overlap in time. They are not summed across periods or currencies, and interim observations are not annualized. Amounts are in thousands of the stated currency. Two printed MiniMax percentage entries differ from ratios of the reported raw amounts; the analysis consistently uses the raw-amount ratios. See `data/README.md` for details.
+The illustrative exact crossing .6239603103 is conditional on the declared inputs.
+At delta=.002, feedback-only bounds for Psi=1,2,5,10 are .173617, .335939, 1.291435
+and unbounded. A separate matched labor-growth floor of .002 gives .0909602565
+without composition or feedback information. Equal numerical acquisition and
+user-cost budget ceilings describe different restrictions, not one account twice.
 
-## Interpretation and scope
+## Scope of verification
 
-The code calculates sharp bounds for the specified necessary-condition resource block. Finite upper bounds apply to the included optimal regular-BGP subset. Candidate-set unboundedness is not an unrestricted global-optimality proof. The accounting observations are measured inputs; relative valuation, coverage, budget conversion, service growth, productivity drift, and the feedback ceiling are explicit theoretical restrictions. The scripts do not estimate these quantities or infer the world's AI growth effect.
+Finite resource bounds also hold for the globally optimal regular-BGP subset.
+Sharpness is established for the necessary-condition resource block. Candidate
+feasibility, first-order conditions, TVCs, and restricted one-control-block global
+comparisons do not certify simultaneous-control global optimality. No regression,
+GPU experiment, transition solver or world-AI growth estimate is performed here.
+The new user-cost coefficient and labor restriction are independently checked on
+primitive grids; analytical proofs, rather than grids, establish the results.
 
-The headline crossing, under the paper's stated reference restrictions, is `lambda = 0.6239603103388948`. At that exact crossing both standalone multiplier bounds equal approximately `1.291435`. Rounded `lambda = 0.624` is already above the crossing and gives `1.289161`; it is not an exact tie. At `lambda = 0.7`, the joint bound is approximately `0.324183`.
-
-## Citation and assistance
-
-Please cite Hyunkyu Lee, *Research Budgets and Bounds on Growth Effects*, manuscript version 0.10 (2026), and this repository version or commit. Machine-readable citation metadata are in `CITATION.cff`.
-
-OpenAI Codex assisted with preparation and checking of code and with public-source inspection in September 2026. Numerical claims are accompanied by executable source and explicit checks. Responsibility for the research remains with the author. Contact: richardhk2@khu.ac.kr.
+`publication_manifest.json` records SHA-256 for every published content file except
+itself. `.gitattributes` fixes LF line endings. See `CITATION.cff` for citation metadata.
