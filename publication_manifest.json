@@ -16,7 +16,7 @@
     "build_paper_assets.py": "851c766d736f97319dcfd96056689a6b5a76f157d6e55a4be6bafffb69491775",
     "data/README.md": "7c66708ca14ecb2aa929bddd6b621002c608c7b8c7cb2f887d95e100858fda76",
     "data/accounting_accounting_bounds.json": "a0ca4b43b06635f46b79398f4b0a8a444ceb86808169790fa88ab75d3f2e842d",
-    "data/accounting_observations.csv": "9a43bb2d3c5084be66ed03b284554defaa1d4fbef19962e7d77da0a5ea2771e4",
+    "data/accounting_observations.csv": "aaa2da180afeeb7301fda6c59e1467f3892d976db32b96e6a8084bf90fe8603b",
     "data/accounting_observations.json": "c725162cffcb2fb4679d27e64aebeb5c08163d00b8fce1918ac1a8f92c92aa56",
     "data/sources.json": "f8463c5405f468827c86ac06e8d6b6cf74428c8abffce8777499fedfab8cee75",
     "expected/accounting_table.tex": "0ce57d8c50e571b6d5b25674cf53b20e392a6f534133ed44ad77c755da216a1b",
@@ -35,11 +35,12 @@
     "expected/normalization_table.tex": "00051c728c0837e98689a06d3e6317ce886c9f543864c785f9fe6e5255cc8a60",
     "expected/paper_assets.json": "058223118775fc09b870d9b22597641be850ea85b013809e949cf0352bcc49b6",
     "expected/proxy_witness_table.tex": "b2d9702c4f5aa79c6c8213e503c2f43d688b5559b88b69984786ed9e05a17906",
-    "input_manifest.json": "3ecc59f330e1337f3aef43ec1f672167c64db58f2ccdb21bce8ca546f6c5bced",
+    "input_manifest.json": "64989965d5b91fd0d529bd018b491e026ebdb1abe57d83806111a8c071afc15f",
     "reproduce.py": "88b1f2ab514a6a04ecd7425c75f2f7bd99acf7f98b34d22b9ebc8c26ab2caeb0",
     "requirements.txt": "762af5cb187ba0809354254dfffc93f2de25ef106c44fb9d4c96846a2a241a37",
     "verify_drift.py": "8d4708fd7029fd9a2fb26a5c2ea7403d0cd31122186ef37e4a097602e9a6dcb6",
     "verify_precision.py": "ca3fa12008ecc004ba19ef9a97ab9bc9e63062db322e5ea4249b9aadcd401d45",
-    "verify_restricted_optimality.py": "655c427489118750bfac7507a75d0b50c28435856b17670d2bfe03cb3cd2c30b"
+    "verify_restricted_optimality.py": "655c427489118750bfac7507a75d0b50c28435856b17670d2bfe03cb3cd2c30b",
+    ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
   }
 }
